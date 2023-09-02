@@ -84,7 +84,7 @@
 
 
         
-        <script src="q.js"></script>
+        <script src="quiz.js"></script>
     </div>
    
 </body>

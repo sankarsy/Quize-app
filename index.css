@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.reg-container{
+    
+    margin-left: 500px;
+    margin-top: 60px;
+    padding: 2.5rem;
+    background: linear-gradient(260deg,pink,skyblue);
+    height: 80vh;
+    width:400px;
+    border-radius: 10px;
+    
+   
+    
+}
+.btn{
+    margin-top: 10px;
+    width: 100%;
+
+}
+.reg-container input{
+   
+    width: 100%;
+    padding: .2rem;
+    border-radius:5px;
+    border: none;
+    
+    margin-bottom: 2rem;
+}
+.reg-container header{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size:2rem;
+}
+
+.reg-container form{
+    margin-right: 25px;
+}

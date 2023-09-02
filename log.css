@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    margin-left: 500px;
+    margin-top: 60px;
+    padding: 2.5rem;
+    background: linear-gradient(260deg,pink,skyblue);
+    height: 80vh;
+    width:400px;
+    border-radius: 10px;
+    
+   
+    
+}
+
+.container input{
+   
+    width: 100%;
+    padding: .2rem;
+    border-radius:5px;
+    border: none;
+    margin-right: 1rem;
+}
+.btn{
+    margin-top: 4rem;
+    width: 100%;
+    height: 35px;
+}
+
+.container header{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size:2rem;
+}

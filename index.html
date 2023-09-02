@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="reg-container">
+        <header>Create new account</header>
+        
+        <form name="registerform" action="registration.php" method="POST" onsubmit="return formvalidation()">
+
+            
+            <input type="text" id="name" name="name" placeholder="Enter your name" >
+
+            
+            <input type="text" id="Email" name="email" placeholder="Enter your Email" >
+
+            
+            <input type="password" id="password" name="password" placeholder="password" >
+
+            
+            <input type="text" id="mobile" name="mobilenumber" placeholder="Mobile Number" >
+            
+            <input type="submit"  name="submit" value="Create Account"class="btn btn-primary">
+            <center>
+            <a href="login.php">Already User ?</a>
+            </center>
+        </form>
+        
+            
+        
+    </div>
+
+    
+    <script src="formvalidate.js"> </script>
+</body>
+</html>
